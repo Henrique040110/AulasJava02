@@ -1,4 +1,4 @@
-package aula2.exercicios;
+package aula4.exercicios;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ public class exercicio07 {
         System.out.println("Terceira condição: ");
         boolean cond3 = scanner.hasNext();
 
-        if (cond1 && cond2 || cond3){
+        if (cond1 && cond2 || cond3) {
             System.out.println("Primeira condição: " + cond1);
             System.out.println("Segunda condição: " + cond2);
             System.out.println("Terceira condição: " + cond3);

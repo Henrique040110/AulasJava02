@@ -1,4 +1,4 @@
-package aula2.exercicios;
+package aula4.exercicios;
 
 import java.util.Scanner;
 
@@ -16,6 +16,6 @@ public class exercicio05 {
         System.out.println("Terceira nota: ");
         double nota3 = scanner.nextDouble();
 
-        System.out.println("Nota final: " + (nota1+nota2+nota3)/3);
+        System.out.println("\nNota final: " + (nota1+nota2+nota3)/3);
     }
 }
